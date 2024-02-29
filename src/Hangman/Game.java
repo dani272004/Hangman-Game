@@ -69,7 +69,7 @@ public class Game {
 
             helper.displayInfo2();
 
-            helper.decide(theWord, counter, attempts);//Decides weather you won
+            helper.decide(theWord, counter, attempts);//Decides whether you won
 
         }
     }
