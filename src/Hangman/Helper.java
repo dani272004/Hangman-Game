@@ -22,7 +22,7 @@ public class Helper {
         System.out.println();
     }
 
-    public void decide(char[] theword, int pcounter, int pattemps){ //Decides weather you won
+    public void decide(char[] theword, int pcounter, int pattemps){ //Decides whether you won
         if(theword.length == pcounter) {
             System.out.println("You Won!!!");
             System.out.println(Arrays.toString(theword));
